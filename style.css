@@ -7,6 +7,7 @@
   --bg-color-green: #2C7566;
   --font-family-text:'Barlow', sans-serif;
   --font-family-title: 'Fraunces', serif;
+  --font-family-bg-nav: hsl(198, 100%, 58%);
 }
 
 *{
@@ -159,6 +160,10 @@
   position: relative;
 }
 
+.nav-bg{
+  background-color: var(--font-family-bg-nav);
+}
+
 .cherry-text{
   padding: 5%;
     position: absolute;
@@ -245,3 +250,19 @@ background-color: rgb(251, 130, 134);
 
 }
 
+.nav-color{
+  color: black;
+}
+
+.nav-color:hover{
+  color: whitesmoke;
+}
+
+.nav-btn{
+  background-color: whitesmoke;
+}
+
+.nav-btn:hover{
+  background-color: var(--font-family-bg-nav);
+  color: white;
+}
